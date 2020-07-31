@@ -1,1 +1,4 @@
-console.log (document.getElementById("practice"));
+console.log (document.getElementById("example"));
+
+var item = document.getElementById("example")
+item. innerHTML ="Hello World";
