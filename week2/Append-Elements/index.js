@@ -1,14 +1,19 @@
-var newh1 = document.createElement("h1")
-newh1.textContent = "Welcome to my JS site"
-var myFirst = document.getElementById("first")
-myFirst.append(newh1)
+var h1 = document.createElement("h1")
+h1.textContent = "Welcome to my JS site"
+document.body.append(h1)
 
-var newp = document.createElement("p")
-newp.textContent = "All of this was created with Javascript"
-var mySecond = document.getElementById("second")
-myFirst.append(newp)
+var p = document.createElement("p")
+p.textContent = "All of this was created with Javascript"
+document.body.append(p)
 
-var newli = document.createElement("li")
-newli.textContent = ""
-var myThird = document.getElementById("third")
-myFirst.body.append(newli)
+var ol = document.createElement("ol")
+ol.textContent = ""
+document.body.append(ol)
+
+var array =["item1", "item2", "item3", "item4"]
+for (var i = 0; i < array.length; i ++){
+var li1 = document.createElement("li")
+li1.textContent = array [i]
+document.body.append(li1)
+}
+console.log(i)
