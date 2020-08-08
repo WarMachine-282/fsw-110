@@ -10,7 +10,7 @@ var ol = document.createElement("ol")
 ol.textContent = ""
 document.body.append(ol)
 
-var array =["item1", "item2", "item3", "item4"]
+var array =["item1", "item2", "item3", "item4", "item5","item6"]
 for (var i = 0; i < array.length; i ++){
 var li1 = document.createElement("li")
 li1.textContent = array [i]
