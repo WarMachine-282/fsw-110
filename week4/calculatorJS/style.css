@@ -1,0 +1,24 @@
+html, body {
+    margin-left: 280px;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: rgb(251, 255, 0);
+}
+#divNum1 {
+    background-color: aquamarine;
+}
+#divNum2 {
+    background-color: aquamarine;
+}
+#subNum1 {
+    background-color: chartreuse;
+}
+#subNum2 {
+    background-color: chartreuse;
+}
+#mulNum1 {
+    background-color: cornflowerblue;
+}
+#mulNum2 {
+    background-color: cornflowerblue;
+}

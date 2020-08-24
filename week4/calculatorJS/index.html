@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculatorJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Javascript Calculator</h1>
+    <div id="divisionContainer">
+    
+        <input type="text" id="divNum1">
+        /
+        <input type="text" id="divNum2">
+        <br>
+        <input type="button" onClick="divTotal()" value="Divide" />
+         <br> The total is : <br>
+          <span id="totalOne"></span>
+
+    <div id="subtractionContainer">
+        <input type="text" id="subNum1">
+        -
+        <input type="text" id="subNum2">
+        <br>
+        <input type="button" onClick="subtractTotal()" value="Subtract" />
+        <br> The total is : <br>
+          <span id="totalTwo"></span>
+    </div>
+    <div id="multiplicationContainer">
+        <input type="text" id="mulNum1">
+        x
+        <input type="text" id="mulNum2">
+        <br>
+        <input type="button" onClick="multiplyTotal()" value="Multiply" />
+        <br> The total is : <br>
+          <span id="totalThree"></span>
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
